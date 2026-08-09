@@ -1,0 +1,17 @@
+{
+  "name": "@ottospace/rtl-scripts",
+  "version": "1.0.0",
+  "description": "Zero-dependency world-scripts table + RTL/bidi/shaping-aware detection shared by the OttoSpace RTL toolchain (miraat, lahja, kashida). Runtime-independent script detection (explicit Unicode ranges, not ICU-version-dependent \\p{Script}).",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["rtl", "bidi", "arabic", "unicode", "scripts", "detection", "i18n", "ottospace"],
+  "author": "Othmane Morad",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Otto-OttoSpace/rtl-scripts.git" },
+  "engines": { "node": ">=20" },
+  "files": ["index.js", "README.md", "LICENSE"],
+  "publishConfig": { "access": "public" }
+}
